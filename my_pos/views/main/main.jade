@@ -1,0 +1,8 @@
+extends ../layout
+
+block content
+	div#body
+		form#searchForm
+		button.btn.btn-default.btn-lg.btn-block(type='submit', onclick='javascript:goPage("/order", "searchForm");') 주문하기
+		button.btn.btn-default.btn-lg.btn-block(type='submit', onclick='javascript:goPage("/books", "searchForm");') 거래장부
+		button.btn.btn-default.btn-lg.btn-block(type='submit', onclick='javascript:goPage("/settings", "searchForm");') 설정
